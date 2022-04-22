@@ -1,0 +1,137 @@
+body {/* Esto afecta a todo el body */
+	background-color: #ffffff; /* Color de fondo */
+	font-family: helvetica, arial, geneva, sans-serif; 
+	font-size: 1.0em;   /*Tamaño fuente*/
+	margin-left: 3em;   /*Tamaño margen izquierdo*/
+	margin-right: 3em;  /*Tamaño margen derecho*/
+	color: black;/* Color letra */
+	}
+h1 {/* Esto afecta a todo h1 */
+    font-size: 2.5em; /*Tamaño fuente*/
+    font-weight: bold; /*Tipo de negrita*/
+    color:navy; /* Color de letra */
+    margin:0;   /*Tamaño margen*/
+    }
+        
+h2  {	/* Esto afecta a todo h2 */
+    font-size: 1.1em; /*Tamaño fuente*/
+    color:navy; /* Color de letra */
+    border:0;   /*Tamaño borde*/
+    padding:0;  /*Tamaño padding*/
+    margin:0;    
+    }
+        
+h3 {/* Esto afecta a todo h3 */
+    font-size: 1em; /*Tamaño fuente*/
+    padding:0;
+    margin:0;
+    }
+    
+h4 {/* Esto afecta a todo h4 */
+    font-size: 0.9em; /*Tamaño fuente*/
+    padding:0;
+    margin:0;
+    }
+
+span.linkheader {/* Esto afecta los clase linkheader de etiqueta span */
+    padding: 0.1em;  /*Tamaño margen*/
+    color: white;
+    border-right:none;
+    border-top:none;
+    border-bottom:none;
+    border-color:white;
+    }
+
+div.navy { /* Esto afecta los clase navy de la etiqueta div */
+    margin-top:0;    /* Pone una linea rechulona */
+    margin-left:0;
+    margin-right:0;
+    margin-bottom: 0.5em;
+    padding:0;
+    border-bottom:solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-width:1px;
+    border-color: navy;
+    clear:both;
+    }
+
+div.home{ /* Esto afecta los clase home de la etiqueta div */
+    width:25%;
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    margin:0;
+    padding:0;
+    float:left; /* Parece que alinea a la izquierda el Bloque 1*/
+    }
+
+div.homeBody{  /* Esto afecta los clase homeBody de la etiqueta div */
+    width:70%;
+    background-color:#dedede;  /* Mete el Bloque 2 en un recuadro rechulon alineado a la derecha */
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom: 0.3em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:0;
+    border:solid;
+    border-width:1px;
+    border-color: navy;
+    float:right;
+    }
+
+div.header {  /* Esto afecta los clase header de la etiqueta div */
+    padding-left:0.5em;
+    color:white;     /* Arregla los encabezados header para que aparezcan en un recuadro verde */
+    background-color:teal;
+    font-size:0.9em;	
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 0.1em;
+    border: solid;
+    border-width:0.1em;
+    border-color:teal;
+    }
+
+ul { /* Esto afecta los de la etiqueta ul */
+    padding-bottom:0.5em;
+    padding-top:0;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+a:link { /* Pseudoclase a para links */
+    text-decoration: none;  /*links no visitado */
+    color: #000066;
+    font-weight: bold;
+    }
+
+a:visited { /* Pseudoclase a para links */
+    text-decoration: none; 
+    color: #000066; /*links visitado */
+    font-weight: bold;
+    }
+
+a:hover { /* Pseudoclase a para links */
+    text-decoration: underline; 
+    color: #FF0000;  /*Para cuando el raton esta encima del link */
+    background-color: #ffFFaa;
+    color:black;
+    font-weight: bold;
+    }
+
+span.linkheader a:link {  /* Pseudoclase compuesta a para links */
+    color: white;   /* Afecta a links no visitados descendientes de un span con clase linkheader*/
+    }
+
+span.linkheader a:visited {  /* Pseudoclase compuesta a para links */
+    color: white;  /* Afecta a links visitados descendientes de un span con clase linkheader*/
+    }
+
+span.linkheader a:hover {  /* Pseudoclase compuesta a para links */
+    color: red;  /* Afecta a links cuando pones el raton encima descendientes de un span con clase linkheader*/
+    }
+
